@@ -1,3 +1,6 @@
 /node_modules
 /typings
+/app
 /npm-debug.log
+.idea
+/src
