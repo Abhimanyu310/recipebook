@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ControlGroup} from '@angular/common';
-import { RouteSegment, Router } from "@angular/router";
+import { RouteSegment, Router, CanDeactivate, RouteTree } from "@angular/router";
 import {ControlGroup, Control, ControlArray, Validators, FormBuilder} from "@angular/common";
 import {RecipeService} from "./recipe.service";
 import {Recipe} from "../shared/recipe";
@@ -8,14 +8,54 @@ import {Recipe} from "../shared/recipe";
 @Component({
     templateUrl: '/templates/recipes/recipe-edit.tpl.html'
 })
-export class RecipeEditComponent implements OnInit{
+export class RecipeEditComponent implements OnInit, CanDeactivate{
     myForm: ControlGroup;
     recipe: Recipe;
     private _editMode = 'create';
     private _recipeIndex: number;
+    private _submitted = false;
 
     constructor(private _routeSegment:RouteSegment, private _recipeService:RecipeService,
                 private _formBuilder:FormBuilder, private _router: Router) {
+    }
+
+    onAddItem(itemName:string, itemAmount:string) {
+        (<ControlArray>this.myForm.controls['ingredients']).push(
+            new ControlGroup(
+                {
+                    name: new Control(itemName, Validators.required),
+                    amount: new Control(itemAmount, Validators.compose([
+                        Validators.required,
+                        hasNumbers,
+                        greaterZero
+                    ]))
+                }
+            )
+        );
+    }
+
+    onRemoveItem(index: number) {
+        (<ControlArray>this.myForm.controls['ingredients']).removeAt(index);
+    }
+
+    onSubmit() {
+        this.recipe = this.myForm.value;
+        if (this._editMode === 'edit') {
+            this._recipeService.updateRecipe(this._recipeIndex, this.recipe);
+        } else {
+            this._recipeService.insertRecipe(this.recipe);
+        }
+        this._submitted = true;
+        this.navigateBack();
+    }
+
+    onCancel() {
+        this.navigateBack();
+    }
+
+    private navigateBack() {
+        // this.finished.emit(null);
+        this._router.navigate(['/recipe', this._recipeIndex]);
     }
 
     ngOnInit() {
@@ -57,6 +97,12 @@ export class RecipeEditComponent implements OnInit{
     }
 
 
+    routerCanDeactivate(currTree?:RouteTree, futureTree?:RouteTree):Promise<boolean> {
+        if (this._submitted || this.myForm.pristine) {
+            return Promise.resolve(true);
+        }
+        return Promise.resolve(confirm("Sure?"));
+    }
 
 
 }
