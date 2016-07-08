@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5020e168-47fd-4847-8701-b583b33f5d32" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts" afterPath="$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/recipe-book/recipes.component.ts" afterPath="$PROJECT_DIR$/dev/recipe-book/recipes.component.ts" />
     </list>
     <ignored path="recipebook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,10 +57,9 @@
       <file leaf-file-name="recipe-list.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
                 <marker date="1467961493663" expanded="true" signature="324:622" placeholder="..." />
                 <marker date="1467961493663" expanded="true" signature="395:608" placeholder="..." />
                 <marker date="1467961493663" expanded="true" signature="431:573" placeholder="..." />
@@ -71,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipe-detail.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recipe-detail.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -79,6 +76,26 @@
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-edit.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-edit.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipe-edit.tpl.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/recipes/recipe-edit.tpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,6 +125,8 @@
         <option value="$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts" />
         <option value="$PROJECT_DIR$/dev/recipe-book/recipes.component.ts" />
         <option value="$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts" />
+        <option value="$PROJECT_DIR$/dev/recipe-book/recipe-edit.component.ts" />
+        <option value="$PROJECT_DIR$/templates/recipes/recipe-edit.tpl.html" />
       </list>
     </option>
   </component>
@@ -372,12 +391,12 @@
       <workItem from="1467813842815" duration="3538000" />
       <workItem from="1467869674172" duration="1741000" />
       <workItem from="1467871436095" duration="6030000" />
-      <workItem from="1467957290341" duration="4320000" />
+      <workItem from="1467957290341" duration="4778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15629000" />
+    <option name="totallyTimeSpent" value="16087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,7 +418,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -748,19 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <marker date="1467961493663" expanded="true" signature="324:622" placeholder="..." />
-            <marker date="1467961493663" expanded="true" signature="395:608" placeholder="..." />
-            <marker date="1467961493663" expanded="true" signature="431:573" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -768,6 +774,34 @@
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1467961493663" expanded="true" signature="324:622" placeholder="..." />
+            <marker date="1467961493663" expanded="true" signature="395:608" placeholder="..." />
+            <marker date="1467961493663" expanded="true" signature="431:573" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/recipes/recipe-edit.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
