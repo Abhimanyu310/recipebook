@@ -1,6 +1,8 @@
 import {Component} from '@angular/core';
 import {RecipeService} from "./recipe.service";
 import {RecipeListComponent} from "./recipe-list.component";
+import { Routes, ROUTER_DIRECTIVES } from "@angular/router";
+import {RecipeDetailComponent} from "./recipe-detail.component";
 
 @Component({
     selector: 'my-recipes',
@@ -9,12 +11,18 @@ import {RecipeListComponent} from "./recipe-list.component";
             <my-recipe-list></my-recipe-list>
         </div>
         <div class="detail">
-            Recipe Detail
+            <router-outlet></router-outlet>
         </div>
     `,
     providers: [RecipeService],
-    directives: [RecipeListComponent]
+    directives: [RecipeListComponent, ROUTER_DIRECTIVES]
 })
+
+@Routes([
+    {path: '/:id', component: RecipeDetailComponent},
+    {path: '/create', component: RecipeDetailComponent},
+    {path: '/edit/:id', component: RecipeDetailComponent},
+])
 export class RecipesComponent{
 
 }
