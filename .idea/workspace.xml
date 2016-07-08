@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5020e168-47fd-4847-8701-b583b33f5d32" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/recipe-book/recipe-edit.component.ts" afterPath="$PROJECT_DIR$/dev/recipe-book/recipe-edit.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts" afterPath="$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts" afterPath="$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts" />
     </list>
     <ignored path="recipebook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,15 +42,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="shopping-list-edit.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/shopping-list/shopping-list-edit.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+                <marker date="1467876468287" expanded="true" signature="370:901" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="recipe-list.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="0" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
               <folding>
-                <marker date="1467961493663" expanded="true" signature="324:622" placeholder="..." />
-                <marker date="1467961493663" expanded="true" signature="395:608" placeholder="..." />
-                <marker date="1467961493663" expanded="true" signature="431:573" placeholder="..." />
+                <element signature="e#0#48#0" expanded="true" />
+                <marker date="1467979717663" expanded="true" signature="324:622" placeholder="..." />
+                <marker date="1467979717663" expanded="true" signature="395:608" placeholder="..." />
+                <marker date="1467979717663" expanded="true" signature="431:573" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -58,8 +73,8 @@
       <file leaf-file-name="recipe-detail.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="420">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -87,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipe-edit.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recipe-edit.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-edit.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -135,11 +150,11 @@
         <option value="$PROJECT_DIR$/dev/shopping-list/shopping-list.component.ts" />
         <option value="$PROJECT_DIR$/assets/scss/app.scss" />
         <option value="$PROJECT_DIR$/templates/recipes/recipe-detail.tpl.html" />
-        <option value="$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts" />
-        <option value="$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts" />
         <option value="$PROJECT_DIR$/dev/recipe-book/recipes.component.ts" />
         <option value="$PROJECT_DIR$/templates/recipes/recipe-edit.tpl.html" />
         <option value="$PROJECT_DIR$/dev/recipe-book/recipe-edit.component.ts" />
+        <option value="$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts" />
+        <option value="$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts" />
       </list>
     </option>
   </component>
@@ -404,12 +419,12 @@
       <workItem from="1467813842815" duration="3538000" />
       <workItem from="1467869674172" duration="1741000" />
       <workItem from="1467871436095" duration="6030000" />
-      <workItem from="1467957290341" duration="9849000" />
+      <workItem from="1467957290341" duration="10388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21158000" />
+    <option name="totallyTimeSpent" value="21697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -707,17 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/shopping-list/shopping-list-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-            <marker date="1467876468287" expanded="true" signature="370:901" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/boot.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -746,33 +750,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="0" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1467961493663" expanded="true" signature="324:622" placeholder="..." />
-            <marker date="1467961493663" expanded="true" signature="395:608" placeholder="..." />
-            <marker date="1467961493663" expanded="true" signature="431:573" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/recipes/recipe-detail.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,6 +798,40 @@
           <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <marker date="1467979717663" expanded="true" signature="324:622" placeholder="..." />
+            <marker date="1467979717663" expanded="true" signature="395:608" placeholder="..." />
+            <marker date="1467979717663" expanded="true" signature="431:573" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/recipe-book/recipe-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/shopping-list/shopping-list-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <marker date="1467876468287" expanded="true" signature="370:901" placeholder="..." />
           </folding>
         </state>
       </provider>

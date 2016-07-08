@@ -13,7 +13,8 @@ import {ShoppingListService} from "../shared/shopping-list.service";
 export class RecipeDetailComponent implements OnInit, OnActivate{
     recipe: Recipe;
     private _recipeIndex: string;
-    constructor(private _routeSegment: RouteSegment, private _recipeService: RecipeService, private _router: Router){}
+    constructor(private _routeSegment: RouteSegment, private _recipeService: RecipeService, private _router: Router,
+                private _shoppingListService: ShoppingListService){}
 
     routerOnActivate(curr:RouteSegment, prev?:RouteSegment):void {
         let itemIndex = curr.getParam('id');
@@ -26,5 +27,14 @@ export class RecipeDetailComponent implements OnInit, OnActivate{
 
     onEdit(){
         this._router.navigate(['/recipe/edit', this._recipeIndex]);
+    }
+
+    onDelete() {
+        this._recipeService.deleteRecipe(+this._recipeIndex);
+        this._router.navigate(['/recipe']);
+    }
+
+    onAddToShoppingList() {
+        this._shoppingListService.insertItems(this.recipe.ingredients);
     }
 }

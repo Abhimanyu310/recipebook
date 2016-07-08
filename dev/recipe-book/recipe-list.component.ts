@@ -34,4 +34,7 @@ export class RecipeListComponent implements OnInit{
         this._router.navigate(['/recipe', Number(this._recipeService.getRecipeIndex(item))]);
     }
 
+    onAddRecipe() {
+        this._router.navigate(['/recipe', 'create']);
+    }
 }
